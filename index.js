@@ -7,6 +7,11 @@ app.get('/',(req,res)=>{
     res.send("Hello I am Pownraj Auto Deployment")
 })
 
+app.get('/hello',(req,res)=>{
+    res.send("Hello I am Pownraj Auto Deployment")
+})
+
+
 app.listen(port,()=>{
     console.log(`Server starts at port ${port}`)
 })
