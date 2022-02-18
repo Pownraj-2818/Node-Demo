@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/hello',(req,res)=>{
-    res.send("Hello I am Pownraj Auto Deployment")
+    res.send("Hello world")
 })
 
 
